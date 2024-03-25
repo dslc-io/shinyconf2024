@@ -4,4 +4,102 @@ author: "Jon Harmon"
 format: revealjs
 ---
 
-## To Come
+# From R4DS to DSLC
+
+## The R4DS Online Learning Community
+🐥 It all started with a Tweet \
+📘 R4DS "book club" (~200 readers) \
+📈 Grew to 17,000+ members
+
+![Image of R4DS book](r4ds_book_cover.png)
+
+## Modeling Friendliness and Inclusivity
+👫 Emphasized friendliness from the start \
+👋 Greeted every new member \
+🧑‍🏫 Most "enforcement" has been teaching tips
+
+![Image of diverse group of people](diverse_community.png)
+
+## Expansion During a Global Pandemic
+💻 April 2020: Advanced R book club \
+🌍 [rstudio::global(2021)](https://posit.co/resources/videos/starting-an-r-book-club-cooking-up-friendships-in-isolation/) \
+🚀 Thrived during challenging times
+
+![Image of world map with data points](global_expansion.png)
+
+# Tools and Resources for a Friendly and Inclusive Data Science Community
+
+## Learning Together with Book Clubs
+📚 Over 60 free, online data science books \
+💬 Small groups to encourage discussion \
+🎦 Videos on YouTube to catch up \
+💻  Slack channel per book for asynchronous discussion
+
+![Image of book club meeting](book_club.png)
+
+## Helping Each Other with Friendly Q&A
+🙋‍♂️ Supportive community for asking questions \
+👩‍🏫 Experienced members help newcomers \
+🤝 Culture of collaboration -- it's ok to not know!
+
+![Image of people collaborating](collaborative_problem_solving.png)
+
+## Learning Out Loud with TidyTuesday
+🐘 New dataset every week on social media \
+📊 Participants share data visualizations & code
+
+![Image of data visualization challenge](tidytuesday_challenge.png)
+
+## Making Connections {visibility="hidden"}
+🤝 Connecting on social media \
+🌟 Building relationships in data science
+
+![Image of networking event](networking_event.png)
+
+::: notes
+-   Almost definitely cut this. If not, make it about future directions.
+:::
+
+# Using Shiny to Coordinate a Worldwide Community
+
+## Shiny Apps for Community Management
+📚 [{bookclubber}](https://r4ds.io/bookclubber) \
+👩‍🏫 [{mentordash}](https://r4ds.io/mentordash) \
+❓ More? 
+
+::: notes
+-   Probably expand this out to two more slides with screenshots to avoid the perils of a live demo.
+:::
+
+## Benefits of Using Shiny
+➰ Flexible \
+🏃‍♀️ Quick turnaround \
+👩‍🎓 Community can contribute!
+
+![Image of benefits](shiny_benefits.png)
+
+# How You Can Help
+
+## Volunteer Opportunities
+👩‍🏫 Answer questions on Slack \
+✅ Facilitate a book club cohort \
+✨ Contribute to Shiny apps 
+
+![Image of volunteer opportunities](volunteer_opportunities.png)
+
+::: notes
+-   Convince me to let you contribute!
+:::
+
+## Donations and Sponsorships
+🔍 Seeking a new fiscal host \
+💸 Grants and sponsorships helpful! \
+🙏 Grateful for all contributions
+
+![Image of donation box](donation_box.png)
+
+## Spreading the Word
+📢 Promote DSLC on social media \
+👩‍💼 Participate in clubs with colleagues
+
+![Image of spreading the word](spreading_the_word.png)
