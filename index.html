@@ -7,10 +7,9 @@
 <link href="reintroducing_dslc_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="reintroducing_dslc_files/libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="reintroducing_dslc_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="reintroducing_dslc_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+<link href="reintroducing_dslc_files/libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.4.553">
 
-  <meta name="author" content="Jon Harmon">
   <title>Reintroducing the Data Science Learning Community</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -31,6 +30,7 @@
     }
   </style>
   <link rel="stylesheet" href="reintroducing_dslc_files/libs/revealjs/dist/theme/quarto.css">
+  <link rel="stylesheet" href="style.css">
   <link href="reintroducing_dslc_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="reintroducing_dslc_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="reintroducing_dslc_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -321,19 +321,14 @@
     }
   </style>
 </head>
-<body class="quarto-light">
+<body class="quarto-dark">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Reintroducing the Data Science Learning Community</h1>
+  <h1 class="title"><p><img src="images/dslc_stacked_dark.png" alt="DSLC logo" width="40%" style="float: right;">Reintroducing the Data Science Learning Community</p></h1>
 
 <div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Jon Harmon 
-</div>
-</div>
 </div>
 
 </section>
@@ -344,11 +339,11 @@ Jon Harmon
 </section>
 <section id="the-r4ds-online-learning-community" class="slide level2">
 <h2>The R4DS Online Learning Community</h2>
-<p>🐥 It all started with a Tweet<br>
+<p>🐥 <a href="https://youtu.be/haRPXmWX13c?si=GYpEw6kPcRSHXn6p&amp;t=408">It all started with a Tweet</a><br>
 📘 R4DS “book club” (~200 readers)<br>
 📈 Grew to 17,000+ members</p>
 
-<img data-src="r4ds_book_cover.png" class="r-stretch quarto-figure-center"><p class="caption">Image of R4DS book</p></section>
+<img data-src="images/jesse_tweet.png" class="r-stretch"></section>
 <section id="modeling-friendliness-and-inclusivity" class="slide level2">
 <h2>Modeling Friendliness and Inclusivity</h2>
 <p>👫 Emphasized friendliness from the start<br>
@@ -461,10 +456,16 @@ Jon Harmon
 <h2>Spreading the Word</h2>
 <p>📢 Promote DSLC on social media<br>
 👩‍💼 Participate in clubs with colleagues</p>
-
-<img data-src="spreading_the_word.png" class="r-stretch quarto-figure-center"><p class="caption">Image of spreading the word</p><div class="quarto-auto-generated-content">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="spreading_the_word.png"></p>
+<figcaption>Image of spreading the word</figcaption>
+</figure>
+</div>
+<div class="quarto-auto-generated-content">
+<p><img src="images/dslc_stacked_dark.png" class="slide-logo"></p>
 <div class="footer footer-default">
-
+<p>dslc.io | Jon Harmon | <span class="citation" data-cites="jonthegeek">@jonthegeek</span><span class="citation" data-cites="fosstodon.org">@fosstodon.org</span></p>
 </div>
 </div>
 </section></section>
@@ -624,7 +625,7 @@ Jon Harmon
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -770,6 +771,11 @@ Jon Harmon
             if (link.dataset.originalHref !== undefined) {
               link.href = link.dataset.originalHref;
             }
+              // target, if specified
+              link.setAttribute("target", "_blank");
+              if (link.getAttribute("rel") === null) {
+                link.setAttribute("rel", "noopener");
+              }
           }
         }
       function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
