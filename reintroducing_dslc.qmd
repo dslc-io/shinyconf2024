@@ -1,17 +1,25 @@
 ---
-title: "Reintroducing the Data Science Learning Community"
-author: "Jon Harmon"
-format: revealjs
+title: |
+  <img src="images/dslc_stacked_dark.png" alt="DSLC logo" width="40%" style="float: right;">Reintroducing the Data Science Learning Community
+css: style.css
+format:
+  revealjs: 
+    theme: [dark, custom.scss]
+    logo: images/dslc_stacked_dark.png
+    footer: dslc.io | Jon Harmon | @jonthegeek@fosstodon.org
+    link-external-newwindow: true
+    transition: slide
 ---
 
 # From R4DS to DSLC
 
 ## The R4DS Online Learning Community
-🐥 It all started with a Tweet \
+
+🐥 [It all started with a Tweet](https://youtu.be/haRPXmWX13c?si=GYpEw6kPcRSHXn6p&t=408) \
 📘 R4DS "book club" (~200 readers) \
 📈 Grew to 17,000+ members
 
-![Image of R4DS book](r4ds_book_cover.png)
+![](images/jesse_tweet.png)
 
 ## Modeling Friendliness and Inclusivity
 👫 Emphasized friendliness from the start \
