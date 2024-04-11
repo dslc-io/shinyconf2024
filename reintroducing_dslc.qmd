@@ -56,10 +56,6 @@ format:
 
 ![](images/slack_users_01.png){.absolute bottom=10 height="250"}
 
-::: {.fragment .fade-out}
-![](images/slack_users_01.png){.absolute bottom=10 height="300"}
-:::
-
 ::: fragment
 👫 Emphasized friendliness from the start
 :::
@@ -70,13 +66,13 @@ format:
 🧑‍🏫 Most "enforcement" has been teaching tips
 :::
 ::: fragment
-📽️ [R4DS: self-taught DS & DEI](https://www.youtube.com/watch?v=haRPXmWX13c) Jesse @ rstudio::conf(2019)
+🎦 [R4DS: self-taught DS & DEI](https://www.youtube.com/watch?v=haRPXmWX13c) Jesse @ rstudio::conf(2019)
 :::
 ::: fragment
 ![](images/slack_users_02.png){.absolute bottom=10 height="250"}
 :::
 ::: fragment
-📽️ [RD4S: How can we help?](https://www.youtube.com/watch?v=iIjiwzxUI_0) me @ useR!2019
+🎦 [RD4S: How can we help?](https://www.youtube.com/watch?v=iIjiwzxUI_0) me @ useR!2019
 :::
 
 ::: notes
@@ -99,13 +95,13 @@ format:
 ![](images/slack_users_03.png){.absolute bottom=10 height="250"}
 :::
 ::: fragment
-📽️ [Hadley visits the clubs](https://youtu.be/u2cI3oGgW7E)
+🎦 [Hadley visits the clubs](https://youtu.be/u2cI3oGgW7E)
 :::
 ::: fragment
 ![](images/slack_users_04.png){.absolute bottom=10 height="250"}
 :::
 ::: fragment
-🌍 [Starting an R Book Club: Cooking Up Friendships in Isolation](https://posit.co/resources/videos/starting-an-r-book-club-cooking-up-friendships-in-isolation/) Maya Gans @ rstudio::global(2021)
+🎦 [Starting an R Book Club: Cooking Up Friendships in Isolation](https://posit.co/resources/videos/starting-an-r-book-club-cooking-up-friendships-in-isolation/) Maya Gans @ rstudio::global(2021)
 :::
 ::: fragment
 🚀 18,000 members
@@ -134,32 +130,103 @@ format:
 
 # Tools and Resources for a Friendly and Inclusive Data Science Community
 
-## Learning Together with Book Clubs
-📚 Over 60 free, online data science books \
-💬 Small groups to encourage discussion \
-🎦 Videos on YouTube to catch up \
-💻  Slack channel per book for asynchronous discussion
+::: notes
+"To provide tools and resources to foster a diverse, friendly, and inclusive community of data science learners and practitioners."
+:::
 
-![Image of book club meeting](book_club.png)
+## Learning Together with Book Clubs
+
+![](images/r4ds-cover.jpg){.absolute bottom=10 height="300"}
+
+::: {.fragment fragment-index=1 .fade-out}
+![](images/r4ds-cover.jpg){.absolute bottom=10 height="500"}
+:::
+::: {.fragment fragment-index=1}
+📚 Over 60 free, online data science books
+:::
+::: {.fragment fragment-index=2}
+![](images/advr-cover.png){.absolute bottom=10 left=150 height="300"}
+:::
+::: {.fragment fragment-index=3}
+![](images/tmwr-cover.png){.absolute bottom=10 left=300 height="300"}
+:::
+::: {.fragment fragment-index=4}
+![](images/mshiny-cover.png){.absolute bottom=10 left=450 height="300"}
+:::
+::: {.fragment fragment-index=5}
+![](images/engineering-shiny.jpeg){.absolute bottom=10 left=600 height="300"}
+:::
+::: {.fragment fragment-index=5}
+![](images/py4da-cover.png){.absolute bottom=10 left=750 height="300"}
+:::
+::: fragment
+💬 Small groups to encourage discussion
+:::
+::: fragment
+🎦 Videos on YouTube to catch up
+:::
+::: fragment
+💻  Slack channel per book for asynchronous discussion
+:::
+
+::: notes
+-   Books and book-like things like online courses and even pkgdown sites.
+-   Require at least 5 members to start, 5-6 is ideal.
+-   (Don't move forward yet)
+-   1-hour weekly meeting
+    -   1 person leads discussion of a chapter
+    -   Shared slide decks that we're developing collaboratively
+    -   (Next slide) Vids on YouTube, so it's ok to miss a week
+-   Also post meeting chat to Slack.
+:::
 
 ## Helping Each Other with Friendly Q&A
-🙋‍♂️ Supportive community for asking questions \
-👩‍🏫 Experienced members help newcomers \
+
+::: fragment
+🙋‍♂️ Supportive community for asking questions
+:::
+::: fragment
+🎦 [Learning by Teaching](https://posit.co/resources/videos/learning-by-teaching-mentoring-at-the-r4ds-online-learning-community/) me @ rstudio::conf(2020)
+:::
+::: fragment
+👩‍🏫 Experienced members help newcomers
+:::
+::: fragment
 🤝 Culture of collaboration -- it's ok to not know!
+:::
 
-![Image of people collaborating](collaborative_problem_solving.png)
+::: notes
+-   #help- channels to ask questions
+:::
 
-## Learning Out Loud with TidyTuesday
-🐘 New dataset every week on social media \
-📊 Participants share data visualizations & code
+## Learning Out Loud with #TidyTuesday
 
-![Image of data visualization challenge](tidytuesday_challenge.png)
+::: {.fragment .fade-out fragment-index=1}
+![](images/tt_logo.png){.absolute top=100 width="100%"}
+:::
+
+::::: columns
+:::: column
+::: {.fragment fragment-index=1}
+🐘 New dataset every week
+:::
+::: {.fragment fragment-index=2}
+👩‍💻 Participants share: \
+&nbsp;&nbsp;📊 data visualizations \
+&nbsp;&nbsp;💻 code
+:::
+::::
+:::: column
+::: {.fragment fragment-index=3}
+![](images/tt_nicola.png){width="70%"}
+:::
+::::
+:::::
 
 ## Making Connections {visibility="hidden"}
+
 🤝 Connecting on social media \
 🌟 Building relationships in data science
-
-![Image of networking event](networking_event.png)
 
 ::: notes
 -   Almost definitely cut this. If not, make it about future directions.
@@ -167,47 +234,122 @@ format:
 
 # Using Shiny to Coordinate a Worldwide Community
 
-## Shiny Apps for Community Management
-📚 [{bookclubber}](https://r4ds.io/bookclubber) \
-👩‍🏫 [{mentordash}](https://r4ds.io/mentordash) \
+## Shiny for Community Management
+
+::: fragment
+🎦 [{shinyslack}](https://www.youtube.com/watch?v=DhmxA08bstQ) @ rstudio::conf(2022)
+:::
+::: fragment
+📚 [{bookclubber}](https://r4ds.io/bookclubber)
+:::
+::: {.fragment .fade-in-then-out}
+![](images/bookclubber.png){.absolute bottom=10 height="600"}
+:::
+::: fragment
+👩‍🏫 [{mentordash}](https://r4ds.io/mentordash)
+:::
+::: {.fragment .fade-in-then-out}
+![](images/mentordash.png){.absolute bottom=10 height="600"}
+:::
+::: fragment
 ❓ More? 
+:::
 
 ::: notes
--   Probably expand this out to two more slides with screenshots to avoid the perils of a live demo.
+-   Login using DSLC Slack account
+-   Bookclubber = app for finding a time for new clubs
+-   (next) Ugly, but functional. 
+    -   User's timezone auto-detected
+    -   Shaded cells are popular times
+-   Mentordash = unanswered question tracker
+    -   We try to keep that at 0, but here it was relatively high!
+    -   Loads live data from Slack
+-   More: Now that we have the shinyslack infrastructure, it's relatively easy to attach more apps to our Slack data.
 :::
 
 ## Benefits of Using Shiny
-➰ Flexible \
-🏃‍♀️ Quick turnaround \
-👩‍🎓 Community can contribute!
 
-![Image of benefits](shiny_benefits.png)
+::: fragment
+➰ Flexible 
+:::
+::: fragment
+🏃‍♀️ Quick turnaround
+:::
+::: fragment
+👩‍🎓 Community can contribute!
+:::
+
+::: notes
+-   I probably don't have to convince people here of these benefits, but..
+-   Flexible: Not just a drag-and-drop with set options
+-   Quick: Can have a prototype in a day
+-   Community: Collaborating on the app would be a great way to learn!
+:::
 
 # How You Can Help
 
 ## Volunteer Opportunities
-👩‍🏫 Answer questions on Slack \
-✅ Facilitate a book club cohort \
-✨ Contribute to Shiny apps 
 
-![Image of volunteer opportunities](volunteer_opportunities.png)
+::: fragment
+👩‍🏫 Answer questions on Slack
+:::
+::: fragment
+✅ Facilitate a book club cohort 
+:::
+::: fragment
+✨ Contribute to Shiny apps 
+:::
+
 
 ::: notes
+-   Come to DSLC.io to join our Slack!
+    -   Answering questions is a great way to learn!
+    -   Try to keep replies in threads so mentordash can keep track
+-   Must participate in a club first, but 
+    -   after you do we can always use facilitators
+    -   Times are chosen out of your choices, so it's guaranteed to work for you
 -   Convince me to let you contribute!
+    -   I'm trying to make the github repos welcoming
+    -   Bookclubber exists because Priyanka Gagneja made a v1.
+    -   Automatic processing happens because Kevin Kent sorted out how to interact with the YouTube API. 
 :::
 
 ## Donations and Sponsorships
-🔍 Seeking a new fiscal host \
-💸 Grants and sponsorships helpful! \
-🙏 Grateful for all contributions
 
-![Image of donation box](donation_box.png)
+::: fragment
+🔍 Seeking a new fiscal host
+:::
+::: fragment
+💸 Grants and sponsorships helpful!
+:::
+::: fragment
+🙏 Grateful for all contributions
+:::
+
+::: notes
+-   We're a collective in the Open Collective Foundation, which makes us count as a 501c3 charitable organization.
+-   OCF dissolved suddenly last month
+-   Need a STABLE new host by end of September
+-   Even before then we can start working out details of grants and sponsorships!
+-   We had a fundraiser last month while we still could, and my heart is warmed by the response.
+:::
 
 ## Spread the Word
-📢 Promote DSLC on social media \
-👩‍💼 Participate in clubs with colleagues
 
-![Image of spreading the word](spreading_the_word.png)
+::: fragment
+📢 Promote [DSLC.io](https://dslc.io) on social media
+:::
+::: fragment
+👩‍💼 Participate in clubs with colleagues
+:::
+
+::: notes
+-   Our contact info is on the next slide
+-   Even if we aren't active on a given platform, send people our way!
+-   A great way to bring people into the fold is to participate in a club as a group
+    -   Learning how to do your job counts as work!
+    -   If several of you join, you can probably set the time/day!
+:::
 
 ## Join the community!
 
