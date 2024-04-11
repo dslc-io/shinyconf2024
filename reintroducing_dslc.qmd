@@ -15,25 +15,122 @@ format:
 
 ## The R4DS Online Learning Community
 
-🐥 [It all started with a Tweet](https://youtu.be/haRPXmWX13c?si=GYpEw6kPcRSHXn6p&t=408) \
-📘 R4DS "book club" (~200 readers) \
-📈 Grew to 17,000+ members
+:::: columns
+::: column
+::: {.fragment fragment-index=1}
+🐥 [It all started with a Tweet](https://youtu.be/haRPXmWX13c?si=GYpEw6kPcRSHXn6p&t=408)
+:::
+::: {.fragment fragment-index=3}
+📘 R4DS "book club"
+:::
+::: {.fragment fragment-index=4}
+📈 About 200 learners
+:::
+:::
 
-![](images/jesse_tweet.png)
+::: column
+::: {.fragment fragment-index=3}
+![](images/jesse_tweet_highlight.png){.absolute top=100 width="50%"}
+:::
+:::
+::::
+
+::: {.fragment fragment-index=1 .fade-in-then-out}
+![](images/jesse_tweet_crop.png){.absolute top=160 width="100%"}
+:::
+::: {.fragment fragment-index=2 .fade-in-then-out}
+![](images/jesse_tweet_highlight.png){.absolute top=160 width="100%"}
+:::
+::: {.fragment fragment-index=4}
+![](images/slack_users_01){.absolute bottom=10 height="300"}
+:::
+
+::: notes
+-   Hadley retweeted Jesse,
+-   as did another 733 people.
+-   Jesse started a book club and invited #RStats to join.
+-   About *200 people* in that initial cohort, grew, slacked off, then grew again with a second cohort.
+:::
 
 ## Modeling Friendliness and Inclusivity
-👫 Emphasized friendliness from the start \
-👋 Greeted every new member \
-🧑‍🏫 Most "enforcement" has been teaching tips
 
-![Image of diverse group of people](diverse_community.png)
+![](images/slack_users_01.png){.absolute bottom=10 height="250"}
+
+::: {.fragment .fade-out}
+![](images/slack_users_01.png){.absolute bottom=10 height="300"}
+:::
+
+::: fragment
+👫 Emphasized friendliness from the start
+:::
+::: fragment
+👋 Greeted every new member
+:::
+::: fragment
+🧑‍🏫 Most "enforcement" has been teaching tips
+:::
+::: fragment
+📽️ [R4DS: self-taught DS & DEI](https://www.youtube.com/watch?v=haRPXmWX13c) Jesse @ rstudio::conf(2019)
+:::
+::: fragment
+![](images/slack_users_02.png){.absolute bottom=10 height="250"}
+:::
+::: fragment
+📽️ [RD4S: How can we help?](https://www.youtube.com/watch?v=iIjiwzxUI_0) me @ useR!2019
+:::
+
+::: notes
+-   Jesse had great code of conduct and Slack posts emphasizing that everyone was there to learn.
+-   When I took over the following year, I had a policy to reply to every new member's introduction post with a friendly message setting the tone.
+-   Teaching tips like "don't say 'just'".
+-   Jesse's talk caused a bump in membership.
+-   I'm not sure what the bump was on June 6. Probably another retweet.
+-   useR! is the smaller bump at the end. Virtual.
+:::
 
 ## Expansion During a Global Pandemic
-💻 April 2020: Advanced R book club \
-🌍 [rstudio::global(2021)](https://posit.co/resources/videos/starting-an-r-book-club-cooking-up-friendships-in-isolation/) \
-🚀 Thrived during challenging times
 
-![Image of world map with data points](global_expansion.png)
+![](images/slack_users_02.png){.absolute bottom=10 height="250"}
+
+::: fragment
+💻 April 2020: Advanced R book club
+:::
+::: fragment
+![](images/slack_users_03.png){.absolute bottom=10 height="250"}
+:::
+::: fragment
+📽️ [Hadley visits the clubs](https://youtu.be/u2cI3oGgW7E)
+:::
+::: fragment
+![](images/slack_users_04.png){.absolute bottom=10 height="250"}
+:::
+::: fragment
+🌍 [Starting an R Book Club: Cooking Up Friendships in Isolation](https://posit.co/resources/videos/starting-an-r-book-club-cooking-up-friendships-in-isolation/) Maya Gans @ rstudio::global(2021)
+:::
+::: fragment
+🚀 18,000 members
+:::
+
+::: notes
+-   More details about clubs in next section.
+-   Hadley visited the clubs in Sept & Dec 2020.
+-   I don't know what spike is on August 16, 2021
+-   Hadley also visited Oct 2022 and Jul 2023, but
+-   Harder to get the word out since Xing of Twitter
+-   About 500 active/week
+:::
+
+## Data Science Learning Community
+
+![](images/dslc_stacked_dark.png)
+
+::: notes
+-   As of April 4.
+-   We're much more than just one book club.
+-   More than 60 books
+-   All aspects of data science: modeling, shiny, package creation...
+-   R, Python, Julia ... SQL
+:::
 
 # Tools and Resources for a Friendly and Inclusive Data Science Community
 
@@ -106,8 +203,23 @@ format:
 
 ![Image of donation box](donation_box.png)
 
-## Spreading the Word
+## Spread the Word
 📢 Promote DSLC on social media \
 👩‍💼 Participate in clubs with colleagues
 
 ![Image of spreading the word](spreading_the_word.png)
+
+## Join the community!
+
+:::: columns
+::: column
+![](images/dslc_stacked_dark_noborder.png)
+:::
+::: column
+<br/>
+🌐 [DSLC.io](https://dslc.io) \
+🔗 [LinkedIn/jonthegeek](https://linkedin.com/in/jonthegeek) \
+🐘 [@jonthegeek](https://fosstodon.org/@jonthegeek) \
+🐘 [@R4DSCommunity](https://fosstodon.org/@R4DSCommunity)
+:::
+::::
