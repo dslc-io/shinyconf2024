@@ -11,73 +11,132 @@ format:
     transition: slide
 ---
 
-# Learning Together with Book Clubs
+# Who are you?
 
-## The R4DS Online Learning Community
+## From R4DS to DSLC
 
-:::: columns
-::: column
+::::: columns
+:::: column
 ::: {.fragment fragment-index=1}
-🐥 [It all started with a Tweet](https://youtu.be/haRPXmWX13c?si=GYpEw6kPcRSHXn6p&t=408)
+![](images/r4ds_olc-logo-big.png){height="350"}
 :::
-::: {.fragment fragment-index=3}
-📘 R4DS "book club"
-:::
-::: {.fragment fragment-index=4}
-📈 About 200 learners
-:::
-::: {.fragment fragment-index=5}
-🎦 [R4DS: self-taught DS & DEI](https://www.youtube.com/watch?v=haRPXmWX13c)
-:::
-:::
-
-::: column
-::: {.fragment fragment-index=3}
-![](images/jesse_tweet_highlight.png){.absolute top=100 width="50%"}
-:::
+::: {.fragment fragment-index=2}
+❓ Name is confusing
 :::
 ::::
 
-::: {.fragment fragment-index=1 .fade-in-then-out}
-![](images/jesse_tweet_crop.png){.absolute top=160 width="100%"}
+:::: column
+::: {.fragment fragment-index=3}
+![](images/dslc_stacked_dark_noborder.png){height="350"}
 :::
-::: {.fragment fragment-index=2 .fade-in-then-out}
-![](images/jesse_tweet_highlight.png){.absolute top=160 width="100%"}
+::: {.fragment fragment-index=4}
+🤝 Name is inviting
+:::
+::::
+:::::
+
+::: {.fragment fragment-index=5 style="text-align: center;"}
+We're still the same community.
 :::
 
 ::: notes
--   Hadley retweeted Jesse,
--   as did another 733 people.
--   Jesse started a book club and invited #RStats to join.
--   About *200 people* in that initial cohort, grew, slacked off, then grew again with a second cohort.
--   Jesse spoke about these early days at rstudio::conf(2019).
+-   You may know us as R4DS or the R4DS Online Learning Community
+-   Started as a book club for that one book, but
+    -   We've never been affiliated with that book
+    -   We cover much more than that one book
+-   Now we're the data science learning community
+-   If you want to learn anything about data science, we're here to help.
 :::
+
+## Our mission
+
+> To provide tools and resources to foster a diverse, friendly, and inclusive community of data science learners and practitioners.
+
+::::: columns
+:::: column
+::: fragment
+📚 Learning together
+:::
+::: fragment
+👩‍🏫 Helping one another
+:::
+::::
+:::: column
+::: fragment
+📢 Learning out loud
+:::
+::: fragment
+🖇️ Making connections
+:::
+::::
+:::::
+
+<br/>
+
+::: {.fragment style="text-align: center; font-size: 2em;"}
+**[DSLC.io/join](https://dslc.io/join)**
+:::
+
+::: notes
+-   I was lucky when I started to learn Data Science.
+    -   Found a friendly community on social media.
+    -   I have advantages that not everybody has.
+-   Let's make sure everybody has a good learning experience.
+-   Tools and resources are focused in these areas:
+    -   Learning together
+    -   Helping one another
+    -   Learning out loud
+    -   Still to come: Making connections
+:::
+
+# What do you do?
 
 ## Learning Together with Book Clubs
 
 ![](images/r4ds-cover.jpg){.absolute bottom=10 height="300"}
 
-::: {.fragment fragment-index=1 .fade-out}
+::: {.fragment fragment-index=0 .fade-out}
+![](images/r4ds-1e-cover.png){.absolute bottom=10 width="382"}
+:::
+::: {.fragment fragment-index=0 .fade-in-then-out}
 ![](images/r4ds-cover.jpg){.absolute bottom=10 height="500"}
 :::
-::: {.fragment fragment-index=7}
-📚 Over 60 free, online data science books
-:::
-::: {.fragment fragment-index=2}
+
+::: {.fragment fragment-index=1}
 ![](images/advr-cover.png){.absolute bottom=10 left=150 height="300"}
 :::
-::: {.fragment fragment-index=3}
+::: {.fragment fragment-index=1 .fade-in-then-out}
+![](images/advr-cover.png){.absolute bottom=10 left=150 height="500"}
+:::
+::: {.fragment fragment-index=2}
 ![](images/py4da-cover.png){.absolute bottom=10 left=300 height="300"}
 :::
-::: {.fragment fragment-index=4}
+::: {.fragment fragment-index=2 .fade-in-then-out}
+![](images/py4da-cover.png){.absolute bottom=10 left=300 height="500"}
+:::
+::: {.fragment fragment-index=3}
 ![](images/mshiny-cover.png){.absolute bottom=10 left=450 height="300"}
 :::
-::: {.fragment fragment-index=5}
+::: {.fragment fragment-index=3 .fade-in-then-out}
+![](images/mshiny-cover.png){.absolute bottom=10 left=450 height="500"}
+:::
+::: {.fragment fragment-index=4}
 ![](images/shinyui-cover.png){.absolute bottom=10 left=600 height="300"}
 :::
-::: {.fragment fragment-index=6}
+::: {.fragment fragment-index=4 .fade-in-then-out}
+![](images/shinyui-cover.png){.absolute bottom=10 left=600 height="500"}
+:::
+::: {.fragment fragment-index=5}
 ![](images/engineering-shiny.jpeg){.absolute bottom=10 left=750 height="300"}
 :::
+::: {.fragment fragment-index=5 .fade-in-then-out}
+![](images/engineering-shiny.jpeg){.absolute bottom=10 left=750 height="500"}
+:::
+
+::: {.fragment fragment-index=6}
+📚 Over 60 free, online data science books
+:::
+
 ::: fragment
 💬 Small groups to encourage discussion
 :::
@@ -102,50 +161,51 @@ format:
     -   1-hour weekly meeting
     -   1 person leads discussion of a chapter
     -   Shared slide decks that we're developing collaboratively
+    -   I've worked in educational publishing for about 25 years, sneak in best practices
 -   (Next slide) Vids on YouTube, so it's ok to miss a week
 -   Also post meeting chat to Slack.
 -   The name "R4DS Online Learning Community" became less and less accurate.
 :::
 
-## Data Science Learning Community
-
-![](images/dslc_stacked_dark.png)
-
-::: notes
--   As of April 4.
--   We're much more than just one book club.
--   More than 60 books
--   Never affiliated with the book, but the name made people think we were.
--   We only changed the name on April 4; we had already added all those books and languages.
--   DSLC mission: "To provide tools and resources to foster a diverse, friendly, and inclusive community of data science learners and practitioners."
-:::
-
 ## Shiny App for Book Club Coordination
 
+::::: columns
+:::: {.column width="33%"}
 ::: fragment
-🎦 [{shinyslack}](https://www.youtube.com/watch?v=DhmxA08bstQ) @ rstudio::conf(2022)
+![](images/shinyslack.png){height="200"}
 :::
+::::
+:::: {.column width="33%"}
 ::: fragment
-📚 [{bookclubber}](https://r4ds.io/bookclubber)
+![](images/cookies.png){height="200"}
+:::
+::::
+:::: {.column width="33%"}
+::: fragment
+![](images/scenes.png){height="200"}
+:::
+::::
+:::::
+
+::: fragment
+📚 [{bookclubber}](https://dslc.io/bookclubber)
 :::
 ::: {.fragment .fade-in-then-out}
 ![](images/bookclubber.png){.absolute bottom=10 height="600"}
 :::
+::: fragment
+✨ Come help make it pretty!
+:::
 
 ::: notes
 -   Slack is central, so I developed shinyslack to link Slack users to Shiny activity.
+    -   And abstracted cookies and scenes out of that, both of those are on CRAN.
 -   Bookclubber app for finding a time slot that works for everyone.
 -   Originally developed by Priyanka Gagneja (community member).
 -   User's timezone auto-detected
 -   Shaded cells are popular times
 -   I know this isn't pretty, but it works!
     -   Join the community if you'd like to help improve it!
-:::
-
-# More Tools and Resources for a Friendly and Inclusive Data Science Community
-
-::: notes
--   DSLC mission: "To provide tools and resources to foster a diverse, friendly, and inclusive community of data science learners and practitioners."
 :::
 
 ## Helping Each Other with Friendly Q&A
@@ -222,18 +282,9 @@ format:
 -   Used in college courses for projects
 :::
 
-## Making Connections {visibility="hidden"}
+# How can I help?
 
-🤝 Connecting on social media \
-🌟 Building relationships in data science
-
-::: notes
--   Almost definitely cut this. If not, make it about future directions.
-:::
-
-# How You Can Help
-
-## Volunteer Opportunities
+## Contribute
 
 ::: fragment
 👩‍🏫 Answer questions on Slack: [dslc.io/mentordash](https://dslc.io/mentordash)
@@ -259,7 +310,7 @@ format:
     -   I mentioned needing help, they ran with them.
 :::
 
-## Donations and Sponsorships
+## Sponsorship
 
 ::: fragment
 🔍 Seeking a new fiscal host
@@ -282,22 +333,6 @@ format:
     -   Will let us keep things running, but won't get us all the way to where I envision us going.
 :::
 
-## Spread the Word
-
-::: fragment
-📢 Promote [DSLC.io](https://dslc.io) on social media
-:::
-::: fragment
-👩‍💼 Participate in clubs with colleagues
-:::
-
-::: notes
--   It's harder to get the word out with fractured social media landscape.
--   A great way to bring people into the fold is to participate in a club as a group
-    -   Learning how to do your job counts as work!
-    -   If several of you join, you can probably set the time/day!
-:::
-
 ## Join the community!
 
 ::::: columns
@@ -307,9 +342,6 @@ format:
 :::: column
 <br/>
 
-::: fragment
-🌐 [DSLC.io](https://dslc.io)
-:::
 ::: fragment
 🔗 [LinkedIn/jonthegeek](https://linkedin.com/in/jonthegeek) \
 :::
