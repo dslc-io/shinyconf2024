@@ -149,6 +149,7 @@ We're still the same community.
 
 ::: notes
 -   Start: R4DS
+-   (move through fast)
 -   Added Advanced R in April 2020 (bored at home)
 -   Book clubs across all data science topics, not just R
 -   Relevant here: Lots of shiny books.
@@ -277,8 +278,9 @@ We're still the same community.
 
 ::: notes
 -   Weekly social data project
--   Started by Tom Mock back in 2017
+-   Started by Tom Mock back in April 2018
 -   Now me and Tracy Teal
+-   Datasets on social media & tidytues.day
 -   Used in college courses for projects
 :::
 
