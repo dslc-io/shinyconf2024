@@ -149,6 +149,7 @@ We're still the same community.
 
 ::: notes
 -   Start: R4DS
+-   (move through fast)
 -   Added Advanced R in April 2020 (bored at home)
 -   Book clubs across all data science topics, not just R
 -   Relevant here: Lots of shiny books.
